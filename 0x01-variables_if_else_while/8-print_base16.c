@@ -16,7 +16,7 @@ for (ch = 0; ch < 10; ch++)
 {
 putchar((ch % 10) + '0');
 }
-for(le = 'a'; le <= 'f'; le++)
+for (le = 'a'; le <= 'f'; le++)
 putchar(le);
 putchar('\n');
 
