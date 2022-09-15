@@ -2,5 +2,6 @@
 
 void ptchar(char c)
 {
-  putchar(c);
+putchar(c);
 }
+void print_alphabet(void);
