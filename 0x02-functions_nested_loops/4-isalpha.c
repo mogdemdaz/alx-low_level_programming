@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - code to check for lower alphabets
+ * _isalpha - code to check for lower alphabets
  * @c: The character to check
  * Return: Always 0.
  */
