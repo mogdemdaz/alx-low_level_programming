@@ -1,8 +1,15 @@
-#include <stdio.h>
+#ifndef HEADER_FILE
 
-void ptchar(char c)
-{
-putchar(c);
-}
+#define HEADER_FILE
 
+
+
+int _putchar(char c);
 void print_alphabet(void);
+
+
+
+#endif
+
+
+
