@@ -2,7 +2,7 @@
 
 /**
  * _islower - code to check for lower alphabets
- * @param c The new color code.
+ * @c: The new color code.
  * Return: Always 0.
  */
 int _islower(int c)
