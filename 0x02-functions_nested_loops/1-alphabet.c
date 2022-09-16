@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - code to print alphabets wow
  *
  * Return: Always 0.
  */
