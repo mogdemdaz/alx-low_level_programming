@@ -8,8 +8,7 @@
 int _abs(int c)
 {
 if (c > 0)
-_putchar(c);
+return (c);
 else
-_putchar(-c);
-return (0);
+return (-c);
 }
