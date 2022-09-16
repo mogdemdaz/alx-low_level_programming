@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - code to print alphabets wow
+ * print_alphabet_x10 - code to print alphabets wow
  *
  * Return: Always 0.
  */
