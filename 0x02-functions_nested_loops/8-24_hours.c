@@ -2,10 +2,9 @@
 
  /**
  * jack_bauer - check the code
- * 
- * Return: Always 0.
+ *
  */
-void jack_bauer()
+void jack_bauer(void)
 {
 int hour, minute;
 for (hour = 0; hour <= 23; hour++)
@@ -17,7 +16,7 @@ _putchar((hour % 10) + '0');
 _putchar(':');
 _putchar((minute / 10) + '0');
 _putchar((minute % 10) + '0');
-_putchar('\n'); 
+_putchar('\n');
 }
 }
 }
