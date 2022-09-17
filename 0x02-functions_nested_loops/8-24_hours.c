@@ -1,8 +1,8 @@
 #include "main.h"
-
- /**
- * jack_bauer - check the code
+/**
+ * ack_bauer - code to print time
  *
+ * Return: Always 0.
  */
 void jack_bauer(void)
 {
