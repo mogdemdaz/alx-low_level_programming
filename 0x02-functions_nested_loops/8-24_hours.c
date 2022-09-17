@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * ack_bauer - code to print time
+ * jack_bauer - code to print time
  *
  * Return: Always 0.
  */
