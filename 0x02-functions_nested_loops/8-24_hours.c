@@ -5,7 +5,7 @@
  * 
  * Return: Always 0.
  */
-int jack_bauer()
+void jack_bauer()
 {
 int hour, minute;
 for (hour = 0; hour <= 23; hour++)
@@ -20,5 +20,4 @@ _putchar((minute % 10) + '0');
 _putchar('\n'); 
 }
 }
-return (0);
 }
