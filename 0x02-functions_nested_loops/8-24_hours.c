@@ -5,7 +5,7 @@
  * 
  * Return: Always 0.
  */
-int jack_bauer(void)
+int jack_bauer()
 {
 int hour, minutes;
 for (hour = 0; hour <= 23; hour++)
