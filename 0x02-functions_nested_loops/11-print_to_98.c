@@ -11,6 +11,11 @@ if (n < 98)
 {
 for (num = n; num <= 98; num++)
 {
+if (num < 0)
+{
+_putchar('-');
+_putchar(num + '0');
+}
 if (num <= 9)
 _putchar(num + '0');
 else
