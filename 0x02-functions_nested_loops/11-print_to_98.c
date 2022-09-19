@@ -17,6 +17,9 @@ _putchar(',');
 _putchar(' ');
 }
 }
+else if (n == 98)
+_putchar(n + '0');
+
 else
 {
 for (num = n; num >= 98; num--)
@@ -24,7 +27,7 @@ for (num = n; num >= 98; num--)
 _putchar(n + '0');
 _putchar(',');
 _putchar(' ');
-}  
+}
 }
 _putchar('\n');
 }
