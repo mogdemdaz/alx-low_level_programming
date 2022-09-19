@@ -20,6 +20,8 @@ else
 _putchar((num / 10) + '0');
 _putchar((num % 10) + '0');
 }
+if ((num / 10)  == 9 && (num % 10) == 8)
+continue;
 _putchar(',');
 _putchar(' ');
 }
@@ -39,13 +41,15 @@ if (num >= 100)
 {
 _putchar((num / 100) + '0');
 _putchar(((num / 10) % 10) + '0');
-_putchar((num % 100) + '0');
+_putchar((num % 10) + '0');
 }
 else
 {
 _putchar((num / 10) + '0');
 _putchar((num % 10) + '0');
 }
+if ((num / 10)  == 9 && (num % 10) == 8)
+continue;
 _putchar(',');
 _putchar(' ');
 }
