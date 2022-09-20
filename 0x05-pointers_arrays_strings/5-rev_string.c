@@ -7,12 +7,13 @@
 void rev_string(char *s)
 {
 int i =0, sum = 0;
+char tmp[];
 while (s[i++])
 {
 sum++;
 }
 for (i = sum - 1; i >= 0; i--)
-_putchar(s[i]);
+tpm[i] = s[i]);
 
-_putchar('\n');
+s = tmp;
 }
