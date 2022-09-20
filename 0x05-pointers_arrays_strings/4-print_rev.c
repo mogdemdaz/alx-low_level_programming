@@ -8,7 +8,7 @@
 void print_rev(char *so)
 {
 int i, sum = 0;
-char s[] = *so;
+char s = *so;
 while (s)
 {
 s++;
