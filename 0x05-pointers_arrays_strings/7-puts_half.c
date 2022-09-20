@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * puts2 - check the code
+ * puts_half - check the code
  * @s: parameter
  * Return: Always 0.
  */
-void puts2(char *s)
+void puts_half(char *s)
 {
 int i = 0, sum = 0;
 while (s[i++])
