@@ -14,7 +14,7 @@ sum++;
 }
 if (sum % 2 == 0)
 {
-for (i = (sum / 2) + 1; i <= sum; i++)
+for (i = (sum / 2); i <= sum; i++)
 _putchar(s[i]);
 }
 else
