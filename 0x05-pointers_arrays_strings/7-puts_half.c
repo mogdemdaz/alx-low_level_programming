@@ -14,12 +14,12 @@ sum++;
 }
 if ((sum - 1) % 2 == 0)
 {
-for (i = 0; i < sum / 2; i++)
+for (i = (sum - 1) / 2; i < sum - 1; i++)
 _putchar(s[i]);
 }
 else
 {
-for (i = 0; i < (sum - 1) / 2; i++)
+for (i = (sum - 2) / 2; i < sum - 1; i++)
 _putchar(s[i]);
 }
 _putchar('\n');
