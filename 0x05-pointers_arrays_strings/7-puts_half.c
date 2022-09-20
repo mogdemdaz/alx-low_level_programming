@@ -19,7 +19,7 @@ _putchar(s[i]);
 }
 else
 {
-for (i = (sum - 1) / 2; i < sum; i++)
+for (i = ((sum - 1) / 2) + 1; i < sum; i++)
 _putchar(s[i]);
 }
 _putchar('\n');
