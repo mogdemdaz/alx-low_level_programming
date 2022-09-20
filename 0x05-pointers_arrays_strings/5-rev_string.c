@@ -13,7 +13,7 @@ while (s[i++])
 sum++;
 }
 for (i = sum - 1; i >= 0; i--)
-tmp[i] = s[i]);
+tmp[i] = s[i];
 
 s = tmp;
 }
