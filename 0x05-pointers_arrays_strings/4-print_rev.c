@@ -2,7 +2,7 @@
 
 /**
  * print_rev - check the code
- * @so: parameter
+ * @s: parameter
  * Return: Always 0.
  */
 void print_rev(char *s)
