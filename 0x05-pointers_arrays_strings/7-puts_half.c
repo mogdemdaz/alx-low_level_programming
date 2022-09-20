@@ -12,14 +12,14 @@ while (s[i++])
 {
 sum++;
 }
-if ((sum - 1) % 2 == 0)
+if (sum % 2 == 0)
 {
-for (i = (sum - 1) / 2; i < sum - 1; i++)
+for (i = (sum / 2) + 1; i <= sum; i++)
 _putchar(s[i]);
 }
 else
 {
-for (i = (sum - 2) / 2; i < sum - 1; i++)
+for (i = (sum - 1) / 2; i < sum; i++)
 _putchar(s[i]);
 }
 _putchar('\n');
