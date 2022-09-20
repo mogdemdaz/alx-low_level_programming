@@ -11,7 +11,6 @@ int i, sum = 0;
 char s = *so;
 while (s)
 {
-s++;
 sum++;
 }
 for (i = sum - 1; i >= 0; i--)
