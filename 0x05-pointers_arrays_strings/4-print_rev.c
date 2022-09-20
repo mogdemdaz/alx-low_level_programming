@@ -14,7 +14,7 @@ while (s)
 s++;
 sum++;
 }
-char sp[sum -1] = *so;
+char sp[] = *so;
 for (i = sum - 1; i >= 0; i--)
 _putchar(sp[i]);
 
