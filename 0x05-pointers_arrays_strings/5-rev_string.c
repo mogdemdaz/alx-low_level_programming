@@ -12,7 +12,7 @@ while (s[i++])
 {
 sum++;
 }
-for (i = sum - 1; i >= 0; i--)
+for (i = sum - 1; i >= sum / 2; i--)
 {
 tmp = s[i];
 s[i] = s[sum - i - 1];
