@@ -5,17 +5,15 @@
  * @so: parameter
  * Return: Always 0.
  */
-void print_rev(char *so)
+void print_rev(char *s)
 {
-int i, sum = 0;
-char s = *so;
-while (s)
+int i = 0, sum = 0;
+while (s[i++])
 {
-s++;
 sum++;
 }
 for (i = sum - 1; i >= 0; i--)
-_putchar(so[i]);
+_putchar(s[i]);
 
 _putchar('\n');
 }
