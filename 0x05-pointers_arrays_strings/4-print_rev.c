@@ -11,10 +11,12 @@ int i, sum = 0;
 char s = *so;
 while (s)
 {
+s++;
 sum++;
 }
+char sp[sum -1] = *so;
 for (i = sum - 1; i >= 0; i--)
-_putchar(so[i]);
+_putchar(sp[i]);
 
 _putchar('\n');
 }
