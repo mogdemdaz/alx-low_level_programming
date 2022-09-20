@@ -13,6 +13,7 @@ while (src[i])
 dest[i] = src[i];
 i++;
 }
+*dest++;
 *dest = '\0';
 return (dest);
 }
