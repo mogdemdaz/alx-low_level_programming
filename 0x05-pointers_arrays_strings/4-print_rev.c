@@ -8,15 +8,14 @@
 void print_rev(char *so)
 {
 int i, sum = 0;
-char s = *so;
+char s[] = *so;
 while (s)
 {
 s++;
 sum++;
 }
-char sp[] = *so;
 for (i = sum - 1; i >= 0; i--)
-_putchar(sp[i]);
+_putchar(so[i]);
 
 _putchar('\n');
 }
