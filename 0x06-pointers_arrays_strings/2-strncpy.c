@@ -16,7 +16,7 @@ count++;
 for (i = 0; src[i] && i < n; i++)
 dest[i] = src[i];
 
-for(i = count; i < n; i++)
+for (i = count; i < n; i++)
 dest[i] = '\0';
 
 
