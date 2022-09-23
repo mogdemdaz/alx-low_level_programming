@@ -6,7 +6,8 @@
  * Return: Always 0.
  */
 char *cap_string(char *n)
-{int index = 0;
+{
+int index = 0;
 
 while (str[index])
 {
