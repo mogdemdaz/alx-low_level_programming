@@ -19,6 +19,5 @@ for (i = 0; i < count2; i++)
 {
 dest[count++] = src[i];
 }
-dest[count++] = '\0';
 return (dest);
 }
