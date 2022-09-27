@@ -10,19 +10,11 @@
  */
 char *_strchr(char *s, char c)
 {
-int i = 0, count = 0;
-char *p = NULL;
-
-while (s[i++])
-count++;
-
-for (i = 0; i < count; i++)
+int i;
+for (i = 0; s[i] >= '\0'; i++)
 {
 if (c == s[i])
-{
-p = &s[i];
-break;
+return (s + i);
 }
-}
-return (p);
+return ('\0');
 }
