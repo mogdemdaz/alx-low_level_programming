@@ -5,7 +5,7 @@
  *  @s:  segment to be searched
  *  @accept: bytes to search for
  *
- *  Return: returns the number of bytes in the initial segment of @s which consist of bytes @accept
+ *  Return: returns the number of bytes...
  */
 
 unsigned int _strspn(char *s, char *accept)
