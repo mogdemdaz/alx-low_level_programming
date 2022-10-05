@@ -9,7 +9,7 @@
  * Return:  returns 1 if @n is a prime number or 0 otherwise
  */
 
-int check(n, i)
+int check(int n, int i)
 {
 if (n % i == 0)
 return (0);
