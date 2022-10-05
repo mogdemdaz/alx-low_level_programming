@@ -9,7 +9,7 @@
 
 int factorial(int n)
 {
-int sum = 0;
+int sum = n;
 if (n < 0)
 return (-1);
 else if (n >= 0 && n <= 1)
