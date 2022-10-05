@@ -1,12 +1,10 @@
 #include <stdio.h>
-
-
 /**
+ * main - check the code
+ * @argc: argument count
+ * @argv: argument value
  *
- *  main - check the code
- *  @argc: argument count
- *  @argv: argument value
- *  Return - value to be returned
+ * Return: value to be returned
  */
 int main(int argc, char *argv[])
 {
