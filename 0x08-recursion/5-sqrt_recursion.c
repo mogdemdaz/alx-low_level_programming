@@ -2,8 +2,8 @@
 
 /**
  * _sqrt - get the sqrt root of n
- * @n - number to find the squre root of
- * @r - current root value
+ * @n: number to find the squre root of
+ * @r:  current root value
  * Return: the sqrt root
  */
 int _sqrt(int n, int r)
