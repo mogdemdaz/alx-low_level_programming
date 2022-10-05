@@ -6,12 +6,12 @@
  * @r: current root value
  *
  */
-int _sqrt(n, r)
+int _sqrt(int n, int r)
 {
 if ((r * r) == n)
 return (r);
 else if (r == n / 2)
-return (-);
+return (-1);
 
 return (_sqrt(n, r + 1));
 }
