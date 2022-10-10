@@ -21,7 +21,7 @@ while (s2[i++])
 count++;
 
 for (i = 0; i < count; i++)
-s1[s1 + i] = s2[i];
+s1[*s1 + i] = s2[i];
 
 s1[i] = '\0';
 
@@ -34,7 +34,7 @@ combined = malloc(sizeof(char) * count);
 if (combined == NULL)
 return (NULL);
 
-for (i = 0; s1[i] i++)
+for (i = 0; s1[i]; i++)
 combined[i] = s1[i];
 
 
