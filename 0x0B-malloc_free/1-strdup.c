@@ -14,10 +14,10 @@ int i, count = 0;
 if (str == NULL)
 return (NULL);
 
-while (*str)
+for (i = 1; str[i]; i++)
 count++;
 
-copy = malloc(sizeof(char) * count);
+copy = malloc(sizeof(char) * (count));
 
 if (copy == NULL)
 return (NULL);
