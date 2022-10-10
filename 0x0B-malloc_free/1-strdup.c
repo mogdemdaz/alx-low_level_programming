@@ -25,7 +25,7 @@ return (NULL);
 for (i = 0; str[i]; i++)
 copy[i] = str[i];
 
-copy[count] = '\0';
+copy[count + 1] = '\0';
 return (copy);
 
 }
