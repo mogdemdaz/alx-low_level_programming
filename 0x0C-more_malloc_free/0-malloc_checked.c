@@ -5,7 +5,7 @@
  * @b: size of memory
  * Return: return a pointer to the allocated memory
  */
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
 {
 void *array = malloc(b);
 if (array == NULL)
